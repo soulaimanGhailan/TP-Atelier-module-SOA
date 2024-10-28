@@ -26,7 +26,7 @@ public class SecConfig {
                 .authorizeExchange(auth -> auth.pathMatchers("/CHERCHEUR-SERVICE/Chercheurs/email/{id}").permitAll())
                 .authorizeExchange(auth -> auth.pathMatchers("/CHERCHEUR SERVICE/Chercheurs/**").hasAuthority("Chercheur"))
                 .authorizeExchange(auth -> auth.pathMatchers("/CHERCHEUR SERVICE/Enseignants/**").hasAuthority("Enseignant"))
-                .authorizeExchange(auth -> auth.anyExchange().authenticated())
+                .authorizeExchange(auth -> auth.anyExchange().permitAll())
                 .oauth2ResourceServer(oauth2 -> oauth2.jwt());
 
         return http.build();
