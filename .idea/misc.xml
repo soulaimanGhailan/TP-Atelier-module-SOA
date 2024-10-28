@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/discouvry-service" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../MicroService-TP3/Chercheur-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/../MicroService-TP3/Enseignant-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Chercheur-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Enseignant-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Projet-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Security_Microservice/pom.xml" />
+        <option value="$PROJECT_DIR$/geteway-service/pom.xml" />
+        <option value="$PROJECT_DIR$/discouvry-service/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-descovery/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/config-service/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../MicroService-TP3/Chercheur-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/../MicroService-TP3/Enseignant-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/discouvry-service/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-descovery/pom.xml" />
+        <option value="$PROJECT_DIR$/geteway-service/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
